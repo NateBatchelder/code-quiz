@@ -1,0 +1,155 @@
+* {
+    font-size: 16px;    
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    background-color: #993399;
+    text-align: center;
+}
+
+header a {
+    color: whitesmoke;
+}
+
+header a:visited {
+    color: yellow;
+}
+
+#highLink {
+    font-size: 32px;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: #993399;
+
+}
+
+#highLink:hover {
+    background-color: seagreen;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 48px;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    text-decoration: underline black;
+    text-align: center;
+}
+
+h2 {
+    font-size: 26px;
+    padding: 32px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    text-decoration: underline black;
+
+}
+
+p {
+    font-size: 26px;
+    text-align: center;
+}
+
+#timer {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-size: 32px;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#startButton {
+    display: block;
+    font-size: 26px;
+    padding: 5px;
+    margin:auto;
+    width: 50%;
+    text-align: center;
+}
+
+button:hover {
+    background-color: salmon;
+}
+
+#button1, #button2, #button3, #button4 {
+    background-color: thistle;
+    display: block;
+    font-size: 26px;
+    margin: 20px 20px 20px 50px;
+    padding: 10px;
+}
+
+#button1:hover, #button2:hover, #button3:hover, #button4:hover {
+    background-color: salmon;
+}
+
+#container {
+    border: violet;
+    border-style: solid;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+#quizHolder {
+    text-align: center;
+    font-size: 32px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#submitButton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #993399;
+    color: whitesmoke;
+    padding: 10px;
+    margin: auto;
+    font-size: 24px;
+}
+
+#answer { 
+    font-size: 24px;
+    text-align: center;
+    color: grey;
+    padding: 20px;
+    margin: 20px;
+}
+
+#gameOver {
+    display: block;
+}
+
+#scoreitems {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+#homeReturn {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    font-size: 24px;
+}
