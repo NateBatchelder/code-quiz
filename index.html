@@ -15,7 +15,7 @@
     <header>
       <!-- title -->
       <h1>Code Quiz</h1>
-      <button id="highLink">Hall of Fame</button>
+      <button id="hallOfFame">Hall of Fame</button>
     </header>
 
     <!-- ! Row 2 -->
@@ -46,12 +46,26 @@
     <!-- ! Row 4 -->
     <!-- game over -->
     <div id="gameOver">
-        <h2 id="finalScore"></h2>
+        <h1>WOW!</h1>
+        <div class="justScored">
+            <h3>You just scored:</h3>
+
+            
+            <h3 id="finalScore"></h3>
+
+        </div>
+        <button id="restartButton">RESTART</button>
+    </div>
+
+          <p>
+            <!-- ? could this be a place to list the player's score and time taken from local storage? -->
+          </p>
+        </div>
         <form action="">
-            <label for="initials">Initials: </label>
+            <label for="initials">Player Name: </label>
             <input
               type="text"
-              id="playerInitials"
+              id="playerName"
               name="initials"
               placeholder="Player"/>
             <button id="scoreSubmit">Submit Score</button>
@@ -61,8 +75,8 @@
     <!-- ! Row 5 -->
     <!-- high scores -->
         <div id="scoreboard">
-          <h1 id="highScores">High Scores</h1>
-          <div id="scoreItems">
+          <h1 id="highScores">Hall of Fame</h1>
+          <div id="highscoreDisplay">
             <p></p>
             <p></p>
             <p></p>
