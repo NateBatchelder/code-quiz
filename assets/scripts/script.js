@@ -173,20 +173,29 @@ answerBank.addEventListener("click", function (event) {
 
 function displayEndGameDivs() {
   // display the gameOver div
+  gameOver.style.display = "block";
   // hide the quiz div
+  quiz.style.display = "none";
   // hide the startPage div ("none")
+  startPage.style.display = "none";
 }
 
 function displayStartPageDiv() {
   // display the startPage div
+  startPage.style.display = "block";
   // hide the gameOver div
+  gameOver.style.display = "none";
   // hide the quiz div ("none")
+  quiz.style.display = "none";
 }
 
 function displayScoreboardDiv() {
   // display the scoreboard div
+  scoreboardDiv.style.display = "block";
   // hide the startPage div ("none")
+  startPage.style.display = "none";
   // hide the gameOver div
+  gameOver.style.display = "none";
 }
 
 highscoreLink.addEventListener("click", function () {

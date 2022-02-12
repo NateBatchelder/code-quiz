@@ -18,9 +18,9 @@
       <button id="hallOfFame">Hall of Fame</button>
     </header>
 
-    <!-- ! Row 2 -->
     <!-- main -->
     <main>
+      <!-- ! startPageDiv -->
     <div id="startPage">
         <h2 id="startMessage">
           The button will start the timer and display the first question
@@ -28,8 +28,7 @@
         <button id="startButton">LETS GET STARTED</button>
     </div>
 
-    <!-- ! Row 3 -->
-    <!-- quiz game -->
+    <!-- ! quizDiv -->
     <div id="quiz">
         <!-- timer -->
         <div id="timer">Time:<span id="timer">0</span></div>
@@ -43,12 +42,11 @@
         </div>
     </div> 
 
-    <!-- ! Row 4 -->
-    <!-- game over -->
+    <!-- ! gameOverDiv -->
     <div id="gameOver">
         <h1>WOW!</h1>
         <div class="justScored">
-            <h3>You just scored:</h3>
+            <h3>You just scored: ${ score }</h3>
             <h3 id="finalScore"></h3>
         </div>
         
@@ -67,8 +65,7 @@
 
     </div>
 
-    <!-- ! Row 5 -->
-    <!-- high scores -->
+    <!-- ! scoreboardDiv -->
         <div id="scoreboard">
           <h1 id="highScores">Hall of Fame</h1>
           <div id="highscoreDisplay">
